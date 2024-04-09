@@ -5,6 +5,7 @@ import cv2
 import torch
 import os
 import clip
+import matplotlib; matplotlib.use('agg')
 
 
 def convert_box_xywh_to_xyxy(box):
